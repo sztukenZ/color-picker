@@ -1,49 +1,52 @@
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <nav>
-            <form id="color-input" method="post">
-            <input type="color" name="seed-color" id="seed-color" />
-            <select name="color-mode" id="color-mode">
-                <option value="monochrome">Monochrome</option>
-                <option value="monochrome-dark">Monochrome-dark</option>
-                <option value="monochrome-light">Monochrome-light</option>
-                <option value="analogic">Analogic</option>
-                <option value="complement">Complement</option>
-                <option value="analogic-complement">Analogic-complement</option>
-                <option value="triad">Triad</option>
-                <option value="quad">Quad</option>
-            </select>
-            <button id="get-btn">Get color scheme</button>
-            </form>
-        </nav>
-        <main>
-            <div class="color-wrapper">
-                <div class="color-area"></div>
-                <div class="color-hex"></div>
-            </div>
-            <div class="color-wrapper">
-                <div class="color-area"></div>
-                <div class="color-hex"></div>
-            </div>
-            <div class="color-wrapper">
-                <div class="color-area"></div>
-                <div class="color-hex"></div>
-            </div>
-            <div class="color-wrapper">
-                <div class="color-area"></div>
-                <div class="color-hex"></div>
-            </div>
-            <div class="color-wrapper">
-                <div class="color-area"></div>
-                <div class="color-hex"></div>
-            </div>
-        </main>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <form id="color-input">
+        <input type="color" name="seed-color" id="seed-color" />
+        <select name="color-mode" id="color-mode">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button id="get-btn">Get color scheme</button>
+      </form>
+    </nav>
+    <main>
+      <div class="color-wrapper">
+        <div class="color-area"></div>
+        <div class="color-hex"></div>
+      </div>
+      <div class="color-wrapper">
+        <div class="color-area"></div>
+        <div class="color-hex"></div>
+      </div>
+      <div class="color-wrapper">
+        <div class="color-area"></div>
+        <div class="color-hex"></div>
+      </div>
+      <div class="color-wrapper">
+        <div class="color-area"></div>
+        <div class="color-hex"></div>
+      </div>
+      <div class="color-wrapper">
+        <div class="color-area"></div>
+        <div class="color-hex"></div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
